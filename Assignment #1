@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main (){
+	
+	float fArea, fRadius;
+	
+	printf("What is the radius of the circle (in cm):");
+	scanf("%f", &fRadius);
+	
+	fArea = 3.1416 * fRadius * fRadius;
+	
+	printf("The area of the circle with radius %.2f cm. is %.2f sq. cm.", fRadius, fArea);
+	
+	return 0;
+}
